@@ -12,7 +12,9 @@ function Banner() {
       .then((response) => {
         console.log(response.data.results[randomNumber]);
         setmovie(response.data.results[randomNumber]);
-      });
+      }).catch((err)=>{
+        console.log(err.message);
+      })
   }, []);
   return (
     <div
