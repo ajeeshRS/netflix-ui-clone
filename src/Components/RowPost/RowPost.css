@@ -23,3 +23,22 @@
 h2{
   margin-left:20px;
 }
+
+@media (max-width: 767px){
+  h2{
+    margin-left:5px;
+  }
+
+  .row {
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+  }
+}
